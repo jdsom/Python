@@ -1,0 +1,6 @@
+print("What is your name?")
+name = input("Enter name now: " )
+print(f"Hello {name} and welcome to the book!")
+print(f"The length of the name {name} is: " + str(len(name)) + " letters!\n")
+age = int(input("How old are you currently? "))
+print("In a year you'll be " + str(int(age+1)) + f" years old {name}")
